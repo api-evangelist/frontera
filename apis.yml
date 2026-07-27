@@ -1,8 +1,17 @@
 aid: frontera
 name: Frontera
-description: Frontera is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Frontera (Frontera Health) is an AI-assisted clinical documentation company for
+  behavioral health. Its software automates assessment and diagnosis report writing
+  for Board Certified Behavior Analysts (BCBAs) and clinical psychologists working in
+  Applied Behavior Analysis (ABA) and autism care, cutting report time from 6-10 hours
+  to 2-3 hours. The platform pairs a BCBA-trained AI Assessment Builder and Diagnosis
+  Builder with digital phenotyping, and is delivered as a HIPAA-compliant web
+  application (customer login at portal.fronterahealth.com) rather than a public API.
+  Frontera is a venture-backed portfolio company of Lightspeed Venture Partners. This
+  API Evangelist profile tracks the company's public developer and security surface;
+  as of this pass Frontera publishes no public API, developer portal, OpenAPI, SDKs,
+  or MCP server.
 url: https://raw.githubusercontent.com/api-evangelist/frontera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,53 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fronterahealth.com/wp-content/uploads/Frontera-Health-Featured-Image.webp
 tags:
 - Company
+- Healthcare
+- Behavioral Health
+- Artificial Intelligence
+- Clinical Documentation
+- ABA Therapy
+- Autism Care
+- HIPAA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/frontera-domain-security.yml
+- type: Website
+  url: https://fronterahealth.com/
+- type: Login
+  url: https://portal.fronterahealth.com/
+- type: SignUp
+  url: https://fronterahealth.com/demo/
+- type: Support
+  url: https://fronterahealth.com/contact/
+- type: PrivacyPolicy
+  url: https://fronterahealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://fronterahealth.com/terms-of-use/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
