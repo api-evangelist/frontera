@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://fronterahealth.com/wp-content/uploads/Frontera-Health-Featured-Image.webp
 tags:
 - Company
@@ -56,6 +56,8 @@ tags:
 - HIPAA
 apis: []
 common:
+- url: https://fronterahealth.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/frontera-domain-security.yml
 - type: Website
